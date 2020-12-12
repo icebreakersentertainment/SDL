@@ -80,12 +80,13 @@ data/src/audio/nto/SDL_nto_audio.h.i
 data/docs/man3/SDL_GetKeyState.3.i
 data/premake/Xcode-iOS/SDL2test/SDL2test.xcodeproj/project.pbxproj.i
 data/VisualC/tests/automated/automated.vcxproj.filters.i
-data/test/testatomic.c.i
+data/src/video/khronos/vulkan/vulkan_xcb.h.i
 data/src/endian/Makefile.am.i
 data/Xcode/TemplatesForXcodeLeopard/SDL OpenGL Application/___PROJECTNAME___.xcodeproj/project.pbxproj.i
 data/test/shapes/p10_shape8alpha.png.i
 data/src/render/direct3d11/SDL_D3D11_PixelShader_FixedColor.hlsl.i
 data/Xcode/TemplatesForXcode/SDL Custom Cocoa Application/MyController.h.i
+data/test/test-automation/tests/testrwops/TestSupportRWops.h.i
 data/src/video/x11/SDL_x11messagebox.c.i
 data/src/test/SDL_test_md5.c.i
 data/src/audio/nacl/SDL_naclaudio.c.i
@@ -234,6 +235,7 @@ data/premake/VisualC/VS2008/SDL.sln.i
 data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_surface.h.i
 data/doc/README-raspberrypi.md.i
 data/test/testgles.c.i
+data/visualtest/docs/html/search/mag_sel.png.i
 data/docs/man3/SDL_KeyboardEvent.3.i
 data/src/video/riscos/SDL_riscosmouse_c.h.i
 data/premake/VisualC/VS2008/tests/testtimer/testtimer.vcproj.i
@@ -307,6 +309,7 @@ data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_touch.h.
 data/src/video/fbcon/SDL_fbelo.h.i
 data/src/video/SDL_shape.h.i
 data/src/audio/macrom/SDL_romaudio.c.i
+data/test/testshape.c.i
 data/src/SDL_dataqueue.h.i
 data/premake/VisualC/VS2008/tests/testsprite2/testsprite2.vcproj.i
 data/Xcode/SDL/pkg-support/sdl_logo.pdf.d
@@ -402,6 +405,7 @@ data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_types.h.
 data/debian/source/format.i
 data/docs/html/sdlgetmousestate.html.i
 data/docs/html/sdljoysticknumhats.html.i
+data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_keysym.h.i
 data/visualtest/docs/html/parsehelper_8c.html.i
 data/test/testautomation_rect.c.i
 data/premake/VisualC/VS2012/tests/testmultiaudio/testmultiaudio.vcxproj.filters.i
@@ -443,6 +447,7 @@ data/src/hidapi/pc/hidapi-hidraw.pc.in.i
 data/src/video/kmsdrm/SDL_kmsdrmmouse.c.i
 data/visualtest/docs/html/search/variables_62.js.i
 data/src/thread/windows/SDL_syssem.c.i
+data/src/joystick/windows/SDL_rawinputjoystick_c.h.i
 data/VisualC/tests/automated/automated_VS2012.vcxproj.i
 data/debian/compat.i
 data/src/thread/win32/SDL_sysmutex.c.i
@@ -459,7 +464,7 @@ data/android-project-ant/AndroidManifest.xml.i
 data/XCodeiPhoneOS/Template/SDL Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/___PROJECTNAME___.i
 data/docs/html/sdlkey.html.i
 data/premake/VisualC/VS2010/tests/testgesture/testgesture.vcxproj.i
-data/visualtest/docs/latex/struct_s_d_l_visual_test___variator.tex.i
+data/test/testyuv.c.i
 data/visualtest/docs/latex/_s_d_l__visualtest__variators_8h.tex.i
 data/docs/html/sdlupdaterect.html.i
 data/docs/man3/SDL_WM_IconifyWindow.3.i
@@ -469,6 +474,7 @@ data/docs/html/sdljoybuttonevent.html.i
 data/docs/html/sdlglloadlibrary.html.i
 data/src/render/SDL_yuv_sw_c.h.i
 data/src/hidapi/ios/Makefile.am.i
+data/src/joystick/macos/SDL_sysjoystick.c.i
 data/docs/html/sdlcreatecond.html.i
 data/Xcode-iPhoneOS/Template/SDL Application/___PROJECTNAME___.xcodeproj/TemplateIcon.icns.i
 data/Xcode/TemplatesForXcodeSnowLeopard/SDL OpenGL Application/atlantis/whale.c.i
@@ -515,6 +521,7 @@ data/src/core/linux/SDL_dbus.c.i
 data/COPYING.txt.i
 data/src/video/SDL_RLEaccel.c.i
 data/include/SDL_string.h.i
+data/test/testlocale.c.i
 data/src/video/windowsrt/SDL_winrtrenderer.h.i
 data/src/video/nanox/SDL_nxmodes.c.i
 data/src/video/x11/SDL_x11video.h.i
@@ -541,6 +548,7 @@ data/Xcode-iPhoneOS/SDL/SDLiPhoneOS.xcodeproj/project.pbxproj.i
 data/src/video/windows/SDL_windowstaskdialog.h.i
 data/src/video/android/SDL_androidkeyboard.h.i
 data/src/joystick/hidapi/SDL_hidapijoystick.c.i
+data/test/testoffscreen.c.i
 data/premake/VisualC/VS2012/tests/testime/testime.vcxproj.i
 data/Xcode-iPhoneOS/Demos/src/happy.c.i
 data/Xcode/SDLTest/Info-testbitmap__Upgraded_.plist.i
@@ -555,6 +563,7 @@ data/VisualC/SDLmain/SDLmain.vcproj.i
 data/visualtest/docs/html/search/all_77.js.i
 data/Xcode/SDL/pkg-support/sdl_logo.pdf.i
 data/src/cdrom/macosx/CAGuard.cpp.i
+data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_mutex.h.i
 data/src/video/dummy/SDL_nullvideo.c.i
 data/premake/VisualC/VS2010/tests/loopwave/loopwave.vcxproj.i
 data/visualtest/docs/html/ftv2blank.png.i
@@ -563,7 +572,7 @@ data/premake/VisualC/VS2012/tests/testatomic/testatomic.vcxproj.i
 data/README.NDS.i
 data/src/video/SDL_copy.h.i
 data/include/SDL_test_compare.h.i
-data/visualtest/docs/html/search/variables_64.html.i
+data/src/thread/riscos/SDL_systhread.c.i
 data/doc/README-android.md.i
 data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_config_win32.h.i
 data/src/video/cocoa/SDL_cocoashape.h.i
@@ -571,6 +580,7 @@ data/visualtest/docs/latex/variator__exhaustive_8c.tex.i
 data/docs/man3/SDL_WasInit.3.i
 data/include/SDL_touchscreen.h.i
 data/src/joystick/windows/SDL_mmjoystick.c.i
+data/src/locale/winrt/SDL_syslocale.c.i
 data/test/test-automation/tests/testsurface/Makefile.am.i
 data/src/hidapi/Makefile.am.i
 data/test/testvulkan.c.i
@@ -695,8 +705,9 @@ data/VisualC/tests/testshape/testshape_VS2013.vcxproj.i
 data/EXCLUDE/GLTSF/src/Window.cpp.i
 data/VisualC/tests/testscale/testscale_VS2010.vcxproj.i
 data/docs/html/sdlgetvideoinfo.html.i
-data/src/thread/stdcpp/SDL_sysmutex.c.i
+data/src/cdrom/macosx/AudioFileReaderThread.c.i
 data/src/video/x11/SDL_x11xinput2.h.i
+data/src/video/offscreen/SDL_offscreenframebuffer.c.i
 data/docs/man3/SDL_SemValue.3.i
 data/src/cpuinfo/_pcihelp.asm.i
 data/src/video/windib/SDL_dibevents.c.i
@@ -721,7 +732,7 @@ data/src/video/uikit/SDL_uikitwindow.h.i
 data/src/thread/irix/SDL_systhread_c.h.i
 data/test/shapes/p13_shape24.png.i
 data/include/SDL_assert.h.i
-data/debian/changelog.i
+data/docs/html/sdllockaudio.html.i
 data/test/test-automation/xml_logger.h.i
 data/src/video/ataricommon/SDL_xbiosmouseinterrupt_s.h.i
 data/src/video/directfb/SDL_DirectFB_opengl.c.i
@@ -747,7 +758,7 @@ data/test/test-automation/build-scripts/missing.i
 data/visualtest/docs/html/search/all_6c.js.i
 data/premake/Xcode/Xcode4/tests/testver/testver.xcodeproj/project.pbxproj.i
 data/Xcode/TemplatesForXcodeLeopard/SDL OpenGL Application/___PROJECTNAME___.xcodeproj/TemplateIcon.icns.i
-data/src/video/nds/SDL_ndsmouse.c.i
+data/src/video/khronos/vulkan/vulkan_xlib_xrandr.h.i
 data/src/hidapi/testgui/Makefile.am.i
 data/src/atomic/SDL_atomic.c.i
 data/Xcode-iOS/Template/SDL iOS Application/Icon.png.i
@@ -772,6 +783,7 @@ data/src/video/haiku/SDL_bvideo.h.i
 data/src/video/nacl/SDL_naclevents_c.h.i
 data/test/testnativew32.c.i
 data/include/SDL_render.h.i
+data/src/joystick/hidapi/SDL_hidapi_steam.c.i
 data/Xcode-iOS/Demos/src/happy.c.i
 data/docs/html/sdlcdpause.html.i
 data/src/video/riscos/SDL_wimppoll.c.i
@@ -784,6 +796,7 @@ data/premake/VisualC/VS2010/tests/testsem/testsem.vcxproj.filters.i
 data/docs/man3/SDL_SetColorKey.3.i
 data/test/testsensor.c.i
 data/XCodeiPhoneOS/Demos/src/touch.c.i
+data/src/video/offscreen/SDL_offscreenwindow.h.i
 data/test/test-automation/tests/testevents/Makefile.am.i
 data/visualtest/docs/html/search/all_72.js.i
 data/src/hidapi/testgui/testgui.vcproj.i
@@ -844,7 +857,7 @@ data/wayland-protocols/wayland.xml.i
 data/src/video/x11/SDL_x11framebuffer.c.i
 data/XCodeiPhoneOS/Template/SDL Application/build/Debug-iphonesimulator/___PROJECTNAME___.app.dSYM/Contents/Resources/DWARF/___PROJECTNAME___.d
 data/test/test-automation/acinclude/ltversion.m4.i
-data/test/shapes/p04_shape24.bmp.i
+data/Xcode-iOS/SDL/SDL.xcodeproj/xcshareddata/xcschemes/libSDL-iOS.xcscheme.i
 data/src/video/maccommon/SDL_macwm.c.i
 data/README.CVS.i
 data/src/thread/linux/SDL_sysmutex_c.h.i
@@ -931,6 +944,7 @@ data/src/hidapi/hidtest/hidtest.cpp.i
 data/Xcode/SDLTest/Info-testgl2.plist.i
 data/src/video/nanox/SDL_nxevents.c.i
 data/premake/VisualC/VS2012/tests/testdraw2/testdraw2.vcxproj.i
+data/src/video/khronos/vulkan/vk_layer.h.i
 data/visualtest/docs/html/union_s_d_l_visual_test___s_u_t_option_value.html.i
 data/src/video/directfb/SDL_DirectFB_video.h.i
 data/src/video/winrt/SDL_winrtegl.h.i
@@ -954,7 +968,7 @@ data/VisualC/tests/testgamecontroller/testgamecontroller.vcxproj.i
 data/src/loadso/macosx/SDL_sysloadso.c.i
 data/android/testproject/jni/importgl.h.i
 data/src/thread/pthread/SDL_syssem.c.i
-data/test/shapes/p09_shape24.bmp.i
+data/configure.ac.i
 data/src/video/windows/SDL_d3drender.c.i
 data/src/video/windowsrt/SDLmain_WinRT_common.h.i
 data/premake/projects/torturethread.lua.i
@@ -1064,7 +1078,7 @@ data/src/render/opengles2/SDL_shaders_gles2.h.i
 data/src/cpuinfo/_cpuinfo.asm.i
 data/src/render/metal/SDL_shaders_metal.metal.i
 data/XCodeiPhoneOS/Test/TestiPhoneOS.xcodeproj/hfutrell.pbxuser.i
-data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_power.h.i
+data/include/SDL_locale.h.i
 data/Xcode-iOS/Template/SDL iOS Application/___PROJECTNAME___.xcodeproj/project.pbxproj.i
 data/src/audio/alsa/SDL_alsa_audio.c.i
 data/premake/VisualC/build-scripts/premake4.exe.i
@@ -1105,6 +1119,7 @@ data/premake/projects/testdraw2.lua.i
 data/test/automated/surface/blitblend.c.i
 data/src/audio/nas/SDL_nasaudio.c.i
 data/docs/html/sdlsettimer.html.i
+data/test/shapes/p01_shape8.png.i
 data/premake/Xcode/Xcode4/tests/testaudioinfo/testaudioinfo.xcodeproj/project.pbxproj.i
 data/test/shapes/p06_shape1alpha.png.i
 data/android-project/app/src/main/java/org/libsdl/app/SDL.java.i
@@ -1118,6 +1133,7 @@ data/UNDER_CONSTRUCTION.txt.i
 data/test/nds-test/build/main.s.i
 data/premake/VisualC/VS2010/tests/testdraw2/testdraw2.vcxproj.i
 data/docs/man3/SDL_DisplayFormat.3.i
+data/Xcode-iOS/SDL/SDL.xcodeproj/xcshareddata/xcschemes/libSDLmain-tvOS.xcscheme.i
 data/docs/man3/SDL_CondBroadcast.3.i
 data/test/mkinstalldirs.i
 data/src/render/software/SDL_blendpoint.h.i
@@ -1152,7 +1168,7 @@ data/premake/VisualC/VS2012/tests/testnative/testnative.vcxproj.i
 data/src/video/photon/SDL_ph_modes_c.h.i
 data/src/events/Makefile.wat.i
 data/premake/Xcode/Xcode4/tests/testshader/testshader.xcodeproj/project.pbxproj.i
-data/src/video/mx6/SDL_mx6opengles.c.i
+data/src/audio/openslES/SDL_openslES.c.i
 data/android-project/src/org/libsdl/app/SDLActivity.java.i
 data/test/testbounds.c.i
 data/VisualC/tests/testfile/testfile.dsp.i
@@ -1194,6 +1210,7 @@ data/src/libm/e_pow.c.i
 data/test/test-automation/tests/testvideo/Makefile.am.i
 data/Xcode/SDLTest/Info-torturethread__Upgraded_.plist.i
 data/visualtest/docs/html/struct_s_d_l_visual_test___action_queue.html.i
+data/src/video/offscreen/SDL_offscreenvideo.c.i
 data/src/video/dummy/Makefile.am.i
 data/src/render/mmx.h.i
 data/test/test-automation/tests/SDL_test.c.i
@@ -1213,7 +1230,7 @@ data/src/filesystem/winrt/SDL_sysfilesystem.cpp.i
 data/src/audio/android/SDL_androidaudio.c.i
 data/premake/README-linux.txt.i
 data/Xcode/TemplatesForProjectBuilder/SDL OpenGL Application/SDLMain.m.i
-data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_error.h.i
+data/src/video/os2fslib/SDL_os2fslib.h.i
 data/premake/VisualC/VS2012/tests/testpower/testpower.vcxproj.i
 data/src/render/direct3d11/SDL_render_d3d11.cpp.i
 data/visualtest/docs/latex/index.tex.i
@@ -1226,6 +1243,7 @@ data/acinclude/alsa.m4.i
 data/premake/Xcode-iOS/Demos/keyboard/keyboard.xcodeproj/project.pbxproj.i
 data/touchTest/makefile~.i
 data/include/SDL_events.h.i
+data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_config_iphoneos.h.i
 data/src/hidapi/windows/ddk_build/hidapi.def.i
 data/src/video/vgl/SDL_vglmouse.c.i
 data/sdl.pc.in.i
@@ -1239,6 +1257,7 @@ data/src/video/caca/SDL_cacaevents_c.h.i
 data/src/video/cocoa/SDL_cocoavideo.h.i
 data/src/thread/linux/clone.S.i
 data/src/hidapi/HACKING.txt.i
+data/visualtest/docs/html/_s_d_l__visualtest__action__configparser_8h_source.html.i
 data/src/cdrom/qnx/.cvsignore.i
 data/src/main/macosx/Makefile.am.i
 data/src/hidapi/doxygen/Doxyfile.i
@@ -1262,6 +1281,8 @@ data/docs/html/sdlwasinit.html.i
 data/src/video/haiku/SDL_bframebuffer.h.i
 data/src/cdrom/openbsd/SDL_syscdrom.c.i
 data/src/video/mir/SDL_mirwindow.h.i
+data/src/video/haiku/SDL_bmessagebox.cc.i
+data/test/test-automation/tests/testaudio/Makefile.am.i
 data/test/test-automation/NEWS.i
 data/Xcode/TemplatesForXcode/SDL Cocoa Application/SDLMain.h.i
 data/src/video/emscripten/SDL_emscriptenopengles.h.i
@@ -1280,6 +1301,7 @@ data/premake/VisualC/VS2012/SDL2test/SDL2test.vcxproj.i
 data/test/testautomation_timer.c.i
 data/src/core/linux/SDL_fcitx.c.i
 data/src/video/riscos/SDL_riscosASM.s.i
+data/test/test-automation/src/libSDLtest/common/img_blit.c.i
 data/VisualC/tests/testshape/testshape_VS2010.vcxproj.i
 data/src/atomic/dummy/SDL_atomic.c.i
 data/test/test-automation/testrect/testrect.c.i
@@ -1325,6 +1347,7 @@ data/docs/man3/SDL_JoystickGetAxis.3.i
 data/premake/VisualC/VS2010/tests/torturethread/torturethread.vcxproj.filters.i
 data/src/video/win32/SDL_win32video.h.i
 data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_cpuinfo.h.i
+data/src/joystick/check_8bitdo.sh.i
 data/src/video/winrt/SDL_winrtopengles.cpp.i
 data/premake/VisualC/build-scripts/generate.all.bat.i
 data/VisualC/tests/testdraw2/testdraw2.vcxproj.user.i
@@ -1436,6 +1459,7 @@ data/test/shapes/p15_shape32alpha.png.i
 data/src/video/Makefile.am.i
 data/Makefile.dc.i
 data/VisualC/tests/testpower/testpower.vcxproj.i
+data/acinclude/pkg_config.m4.i
 data/src/hidapi/windows/Makefile.am.i
 data/premake/Xcode/Xcode4/tests/testmultiaudio/testmultiaudio.xcodeproj/project.pbxproj.i
 data/Xcode/TemplatesForProjectBuilder/SDL Application/main.c.i
@@ -1483,6 +1507,7 @@ data/src/video/SDL_blit_A.c.i
 data/src/video/nanox/SDL_nxvideo.c.i
 data/Xcode/TemplatesForXcodeLeopard/SDL Cocoa Application/___PROJECTNAME___.xcodeproj/TemplateInfo.plist.i
 data/Xcode-iOS/Demos/Demos.xcodeproj/project.pbxproj.i
+data/src/video/khronos/vulkan/vulkan_macos.h.i
 data/src/video/psp/SDL_pspvideo.h.i
 data/README.Platforms.i
 data/src/audio/wasapi/SDL_wasapi.h.i
@@ -1547,7 +1572,7 @@ data/Xcode/SDL/pkg-support/Readme SDL Developer.txt.i
 data/VisualCE/SDL/SDL.vcp.i
 data/src/video/quartz/SDL_QuartzKeys.h.i
 data/Xcode/TemplatesForProjectBuilder/SDL Custom Cocoa Application/prefix.h.i
-data/src/audio/mint/SDL_mintaudiogsxb.h.i
+data/build-scripts/checker-buildbot.bat.i
 data/build-scripts/config.sub.i
 data/test/shapes/p04_shape8.bmp.i
 data/visualtest/docs/html/search/all_74.js.i
@@ -1570,6 +1595,7 @@ data/visualtest/src/variator_random.c.i
 data/VisualC/tests/testplatform/testplatform_VS2012.vcxproj.i
 data/XCodeiPhoneOS/Template/SDL Application/build/___PROJECTNAME___.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-own-target-headers.hmap.i
 data/XCodeiPhoneOS/Demos/Icon.png.i
+data/Xcode-iOS/SDL/SDL.xcodeproj/xcshareddata/xcschemes/All-iOS.xcscheme.i
 data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_version.h.i
 data/premake/Xcode/Xcode4/tests/testloadso/testloadso.xcodeproj/project.pbxproj.i
 data/VisualC/tests/checkkeys/checkkeys.vcproj.i
@@ -1619,6 +1645,7 @@ data/src/audio/directsound/SDL_directsound.c.i
 data/src/cdrom/macosx/SDLOSXCAGuard.c.i
 data/premake/VisualC/VS2010/tests/testsprite2/testsprite2.vcxproj.filters.i
 data/src/video/uikit/SDL_uikitevents.h.i
+data/src/locale/macosx/SDL_syslocale.m.i
 data/src/video/quartz/SDL_QuartzVideo.h.i
 data/src/joystick/dc/Makefile.am.i
 data/build-scripts/windows-buildbot-zipper.bat.i
@@ -1636,6 +1663,7 @@ data/src/video/uikit/SDL_uikitvideo.h.i
 data/src/video/qnxgf/SDL_gf_opengles.c.i
 data/test/testrumble.c.i
 data/src/joystick/psp/SDL_sysjoystick.c.i
+data/src/joystick/hidapi/steam/controller_constants.h.i
 data/src/video/SDL_blit_copy.c.i
 data/src/video/bwindow/SDL_bclipboard.h.i
 data/visualtest/docs/latex/struct_s_d_l_visual_test___r_w_helper_buffer.tex.i
@@ -1649,6 +1677,7 @@ data/src/video/Xext/Xxf86dga/XF86DGA.c.i
 data/src/joystick/dummy/Makefile.am.i
 data/docs/man3/SDL_GetRGBA.3.i
 data/Xcode-iOS/Demos/src/keyboard.c.i
+data/test/teststreaming.c.i
 data/android-project/jni/src/Android_static.mk.i
 data/src/audio/macosx/.cvsignore.i
 data/src/audio/SDL_audiodev_c.h.i
@@ -1766,6 +1795,7 @@ data/build-scripts/install-sh.i
 data/docs/html/sdlresizeevent.html.i
 data/src/audio/SDL_audio.c.i
 data/premake/Xcode/Xcode4/tests/testmessage/testmessage.xcodeproj/project.pbxproj.i
+data/src/video/offscreen/SDL_offscreenevents_c.h.i
 data/src/video/directfb/SDL_DirectFB_events.c.i
 data/src/timer/Makefile.am.i
 data/src/video/Makefile.wat.i
@@ -1794,7 +1824,7 @@ data/src/video/SDL_sysvideo.h.i
 data/src/video/SDL_stretch.c.i
 data/src/thread/nds/SDL_syssem_c.h.i
 data/android/project/res/values/strings.xml.i
-data/test/testshape.c.i
+data/src/video/arm/pixman-arm-simd-asm.h.i
 data/docs/README-gesture.md.i
 data/premake/VisualC/VS2010/tests/testsprite2/testsprite2.vcxproj.i
 data/src/video/x11/SDL_x11mouse_c.h.i
@@ -1816,14 +1846,16 @@ data/EXCLUDE/GLIMM/include/App.hpp.i
 data/test/test-automation/.hgignore.i
 data/XCodeiPhoneOS/Template/SDL Application/build/___PROJECTNAME___.build/Debug-iphonesimulator/___PROJECTNAME___.build/___PROJECTNAME___-all-target-headers.hmap.i
 data/include/.cvsignore.i
+data/src/video/arm/pixman-arm-simd-asm.S.i
 data/src/video/bwindow/SDL_bclipboard.cc.i
 data/test/test-automation/test.h.i
 data/test/shapes/p15_shape24.png.i
 data/visualtest/configs/testsprite2_crashtest/testsprite2_crashtest.actions.i
-data/src/joystick/macos/SDL_sysjoystick.c.i
+data/src/joystick/hidapi/SDL_hidapi_rumble.h.i
 data/VisualC-WinPhone/SDL/SDL_VS2012-WinPhone.vcxproj.filters.i
 data/android/testproject/default.properties.i
 data/src/hidapi/testgui/Makefile.mingw.i
+data/src/audio/mint/SDL_mintaudiogsxb.h.i
 data/README-porting.txt.i
 data/VisualC/tests/testatomic/testatomic_VS2013.vcxproj.i
 data/premake/projects/rectangles.lua.i
@@ -1834,6 +1866,7 @@ data/visualtest/docs/html/globals_eval.html.i
 data/test/acinclude.m4.i
 data/docs/html/sdlaudiocvt.html.i
 data/src/video/aalib/SDL_aaevents.c.i
+data/src/main/uikit/SDL_uikit_main.c.i
 data/visualtest/configs/testsprite2_fullscreen/testsprite2_fullscreen.parameters.i
 data/premake/VisualC/build-scripts/check.bin.compatibility.vs2010.bat.i
 data/src/video/ataricommon/SDL_atarigl_c.h.i
@@ -1842,17 +1875,19 @@ data/include/SDL_config_dreamcast.h.i
 data/test/test-automation/src/libtest/common/img_primitivesblend.c.i
 data/src/thread/stdcpp/SDL_sysmutex.cpp.i
 data/EXCLUDE/GLTSF/src/App.cpp.i
+data/src/video/offscreen/SDL_offscreenvideo.h.i
 data/src/audio/mme/SDL_mmeaudio.c.i
 data/src/video/gapi/SDL_gapivideo.h.i
 data/Xcode-iPhoneOS/Template/SDL Application/Default.png.i
 data/Xcode/TemplatesForXcodeLeopard/SDL OpenGL Application/___PROJECTNAMEASIDENTIFIER____Prefix.pch.i
 data/test/shapes/p02_shape8.bmp.i
+data/Xcode-iOS/SDL/SDL.xcodeproj/xcshareddata/xcschemes/libSDL-iOS-dylib.xcscheme.i
 data/android-project-ant/res/values/strings.xml.i
 data/src/video/SDL_yuv_mmx.c.i
 data/src/video/x11/Makefile.am.i
 data/src/libm/math.h.i
 data/src/joystick/haiku/SDL_haikujoystick.cc.i
-data/touchTest/touchTest2/touchTest2.suo.i
+data/src/locale/haiku/SDL_syslocale.cc.i
 data/src/video/win32/SDL_d3drender.h.i
 data/doc/doxyfile.i
 data/src/video/ps3/SDL_ps3yuv_c.h.i
@@ -1888,7 +1923,7 @@ data/premake/VisualC/VS2012/tests/teststreaming/teststreaming.vcxproj.filters.i
 data/src/video/symbian/EKA1/SDL_epocvideo.cpp.i
 data/Xcode/TemplatesForXcodeSnowLeopard/SDL Cocoa Application/___PROJECTNAME___.xcodeproj/project.pbxproj.i
 data/visualtest/docs/html/search/all_69.js.i
-data/visualtest/docs/html/_s_d_l__visualtest__action__configparser_8h_source.html.i
+data/src/joystick/hidapi/SDL_hidapi_gamecube.c.i
 data/visualtest/include/SDL_visualtest_variators.h.i
 data/Xcode/TemplatesForXcodeTiger/SDL Application/main.c.i
 data/visualtest/docs/html/struct_s_d_l_visual_test___s_u_t_option.html.i
@@ -1897,14 +1932,15 @@ data/Xcode/SDL/SDL.xcodeproj/project.pbxproj.i
 data/src/audio/openbsd/SDL_openbsdaudio.h.i
 data/src/thread/dc/SDL_syscond.c.i
 data/src/test/SDL_test_assert.c.i
+data/src/core/linux/SDL_threadprio.c.i
 data/src/joystick/SDL_gamecontroller.c.i
-data/src/video/ps2gs/SDL_gsevents.c.i
+data/src/video/mx6/SDL_mx6opengles.c.i
 data/src/video/windows/SDL_windowsclipboard.h.i
 data/VisualC/SDL/SDL_VS2010.vcxproj.user.i
 data/VisualC/SDL_VS2008.sln.i
 data/src/render/psp/SDL_render_psp.c.i
 data/docs/html/sdlshowcursor.html.i
-data/test/teststreaming.c.i
+data/src/video/cocoa/SDL_cocoamodes.h.i
 data/src/joystick/mint/.cvsignore.i
 data/include/SDL_syswm.h.i
 data/test/automated/audio/audio.h.i
@@ -1925,7 +1961,7 @@ data/premake/Xcode/Xcode4/tests/testplatform/testplatform.xcodeproj/project.pbxp
 data/Xcode/TemplatesForXcodeLeopard/SDL Application/main.c.i
 data/src/video/windows/SDL_windowsmessagebox.h.i
 data/src/video/nds/SDL_ndswindow.h.i
-data/src/thread/riscos/SDL_systhread.c.i
+data/Xcode/SDL/hidapi/Info.plist.i
 data/Xcode/TemplatesForXcode/SDL Cocoa Application/English.lproj/InfoPlist.strings.i
 data/visualtest/docs/html/classes.html.i
 data/src/video/directfb/SDL_DirectFB_render.h.i
@@ -1963,6 +1999,7 @@ data/src/video/win32/SDL_win32events.c.i
 data/test/test-automation/acinclude/ltsugar.m4.i
 data/src/video/bwindow/SDL_sysevents.cc.i
 data/src/video/x11/edid-parse.c.i
+data/src/audio/openslES/SDL_openslES.h.i
 data/android/project/AndroidManifest.xml.i
 data/Xcode/TemplatesForXcodeLeopard/SDL OpenGL Application/atlantis/swim.c.i
 data/src/libm/s_floor.c.i
@@ -2019,10 +2056,12 @@ data/docs/man3/SDL_KillThread.3.i
 data/src/joystick/darwin/Makefile.am.i
 data/test/testsprite.c.i
 data/include/doxyfile.i
+data/test/shapes/p09_shape24.png.i
 data/test/test-automation/src/libtest/common/img_face.c.i
 data/premake/projects/testthread.lua.i
 data/src/events/SDL_mouse.c.i
 data/src/audio/nto/SDL_nto_audio.c.i
+data/src/video/khronos/vulkan/vulkan_vi.h.i
 data/premake/Xcode/Xcode4/tests/testsem/testsem.xcodeproj/project.pbxproj.i
 data/README.gesture.i
 data/src/video/SDL_renderer_gles.c.i
@@ -2115,11 +2154,12 @@ data/src/audio/xaudio2/SDL_xaudio2_winrthelpers.h.i
 data/test/test-automation/tests/testclipboard/Makefile.am.i
 data/docs/html/guidepreface.html.i
 data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_copying.h.i
-data/docs/README-emscripten.txt.i
+data/Xcode-iOS/SDL/SDL.xcodeproj/xcshareddata/xcschemes/All-tvOS.xcscheme.i
 data/include/SDL_config.h.default.i
 data/src/video/win32/SDL_win32opengl.h.i
 data/src/thread/riscos/SDL_sysmutex_c.h.i
 data/Xcode/SDL/pkg-support/devel-resources/Welcome.txt.i
+data/src/video/khronos/vulkan/vulkan_ios.h.i
 data/src/thread/windows/SDL_systhread_c.h.i
 data/test/shapes/p04_shape24.png.i
 data/premake/VisualC/VS2010/tests/testrendertarget/testrendertarget.vcxproj.filters.i
@@ -2141,7 +2181,7 @@ data/src/video/wincommon/.cvsignore.i
 data/premake/VisualC/VS2012/tests/testiconv/testiconv.vcxproj.i
 data/VisualC/visualtest/visualtest_VS2012.vcxproj.i
 data/src/video/photon/SDL_photon_render.h.i
-data/test/test-automation/src/libSDLtest/common/img_blit.c.i
+data/src/stdlib/SDL_strtokr.c.i
 data/VisualC/tests/testscale/testscale.vcxproj.i
 data/src/video/windows/SDL_windowsopengl.h.i
 data/visualtest/docs/html/_s_d_l__visualtest__action__configparser_8h.html.i
@@ -2234,7 +2274,9 @@ data/src/video/wayland/SDL_waylandvideo.c.i
 data/src/main/macos/SIZE.r.i
 data/src/SDL_internal.h.i
 data/include/SDL_opengles2_gl2platform.h.i
+data/Xcode/TemplatesForXcodeTiger/SDL OpenGL Application/Info.plist.i
 data/src/main/linux/SDL_Qtopia_main.cc.i
+data/docs/README-emscripten.txt.i
 data/Xcode/TemplatesForProjectBuilder/SDL Cocoa Application/SDLMain.nib/info.nib.i
 data/visualtest/docs/html/variator__exhaustive_8c.html.i
 data/docs/html/sdljoystickgetbutton.html.i
@@ -2264,6 +2306,7 @@ data/docs/html/sdlpeepevents.html.i
 data/VisualC/tests/testjoystick/testjoystick_VS2005.vcproj.i
 data/src/filesystem/cocoa/SDL_sysfilesystem.m.i
 data/src/video/nacl/SDL_naclglue.c.i
+data/visualtest/docs/html/search/variables_6d.js.i
 data/visualtest/docs/latex/struct_s_d_l_visual_test___s_u_t_config.tex.i
 data/src/video/qnxgf/SDL_gf_input.h.i
 data/include/SDL_input.h.i
@@ -2323,6 +2366,7 @@ data/src/joystick/windows/SDL_xinputjoystick_c.h.i
 data/visualtest/docs/latex/rwhelper_8c.tex.i
 data/premake/VisualC/VS2010/tests/testfile/testfile.vcxproj.i
 data/VisualC/tests/testvidinfo/testvidinfo.dsp.i
+data/android/testproject/res/drawable-hdpi/icon.png.i
 data/src/joystick/Makefile.wat.i
 data/src/hidapi/pc/hidapi-libusb.pc.in.i
 data/test/test-automation/common/img_face.c.i
@@ -2375,6 +2419,7 @@ data/src/audio/dmedia/SDL_irixaudio.c.i
 data/VisualC/tests/testgl/testgl.dsp.i
 data/src/hermes/.cvsignore.i
 data/visualtest/launch_harness.sh.i
+data/touchTest/touchTest2/touchTest2.suo.i
 data/premake/VisualC/VS2012/tests/testshape/testshape.vcxproj.i
 data/Xcode/TemplatesForXcodeTiger/SDL OpenGL Application/atlantis/swim.c.i
 data/premake/Xcode/build-scripts/build.all.xcode3.x86_64.command.i
@@ -2403,6 +2448,7 @@ data/Xcode/TemplatesForXcode/SDL Custom Cocoa Application/English.lproj/InfoPlis
 data/src/thread/beos/SDL_systls.c.i
 data/src/loadso/macos/SDL_sysloadso.c.i
 data/Xcode/SDLTest/Info-testpalette__Upgraded_.plist.i
+data/android-project/app/jni/CMakeLists.txt.i
 data/test/test-automation/Makefile.in.i
 data/premake/Xcode/Xcode4/tests/testgesture/testgesture.xcodeproj/project.pbxproj.i
 data/visualtest/docs/html/annotated.html.i
@@ -2421,13 +2467,13 @@ data/src/thread/windows/SDL_systls.c.i
 data/test/shapes/p10_shape32alpha.png.i
 data/VisualC-WinRT/tests/loopwave/Package.appxmanifest.i
 data/src/video/cocoa/SDL_cocoamessagebox.h.i
-data/test/CMakeLists.txt.i
+data/src/video/khronos/vulkan/vulkan_fuchsia.h.i
 data/src/video/x11/imKStoUCS.h.i
 data/premake/projects/testrelative.lua.i
 data/premake/patches/premake.patches.txt.i
 data/src/haptic/windows/SDL_dinputhaptic.c.i
 data/android/testproject/jni/importgl.cpp.i
-data/test/test-automation/SDL_test.c.i
+data/src/video/ps3/SDL_ps3render_c.h.i
 data/docs/html/sdlgeterror.html.i
 data/visualtest/docs/html/search/enumvalues_73.js.i
 data/src/video/windx5/SDL_dx5yuv.c.i
@@ -2435,6 +2481,7 @@ data/src/video/wincommon/SDL_wingl_c.h.i
 data/docs/man3/SDL_QuitSubSystem.3.i
 data/test/automated/surface/surface.h.i
 data/src/video/xbios/SDL_xbios_tt.c.i
+data/src/video/khronos/vulkan/vulkan.hpp.i
 data/src/video/win32/SDL_win32events.h.i
 data/docs/man3/SDL_JoystickClose.3.i
 data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/main.c.i
@@ -2457,10 +2504,12 @@ data/src/video/bwindow/SDL_bvideo.h.i
 data/acinclude/ax_gcc_x86_cpuid.m4.i
 data/VisualC/SDLtest/SDLtest_VS2008.vcproj.i
 data/src/audio/SDL_mixer_MMX_VC.h.i
+data/test/configure.ac.i
 data/src/atomic/nds/SDL_atomic.c.i
 data/src/main/windowsrt/SDLmain_WinRT_common.h.i
 data/src/main/macos/SDL.r.i
 data/src/video/os2fslib/SDL_os2fslib.c.i
+data/src/video/wscons/.cvsignore.i
 data/src/video/x11/SDL_x11shape.c.i
 data/visualtest/docs/html/search/all_6b.js.i
 data/VisualC-WinRT/tests/testthread/Assets/StoreLogo.png.i
@@ -2473,6 +2522,7 @@ data/test/test-automation/src/libtest/xml.h.i
 data/VisualC/tests/testgl/testgl_VS2008.vcproj.i
 data/src/video/photon/SDL_photon_input.h.i
 data/src/main/Makefile.am.i
+data/src/locale/windows/SDL_syslocale.c.i
 data/src/video/winrt/SDL_winrtvideo.h.i
 data/README-windows.txt.i
 data/README-wince.txt.i
@@ -2497,7 +2547,7 @@ data/src/sensor/android/SDL_androidsensor.h.i
 data/VisualC/SDL/SDL_VS2012_WinRT.vcxproj.filters.i
 data/test/testerror.c.i
 data/docs/man3/SDL_WaitThread.3.i
-data/docs/html/sdlloadwav.html.i
+data/android-project-ant/res/layout/main.xml.i
 data/Watcom-Win32.zip.i
 data/test/testyuv_cvt.c.i
 data/Xcode/SDLTest/Info-testmousetablet.plist.i
@@ -2526,8 +2576,8 @@ data/premake/Xcode/Xcode3/tests/testver/testver.xcodeproj/project.pbxproj.i
 data/src/thread/symbian/SDL_systhread_c.h.i
 data/test/tests/testplatform.c.i
 data/src/audio/sdlgenaudiocvt.pl.i
-data/test/testalpha.c.i
-data/test/test-automation/tests/testrwops/TestSupportRWops.h.i
+data/test/CMakeLists.txt.i
+data/src/joystick/hidapi/SDL_hidapi_rumble.c.i
 data/src/video/qnx/keyboard.c.i
 data/VisualC/tests/testpower/testpower_VS2008.vcproj.i
 data/test/tests/testrwops.c.i
@@ -2545,7 +2595,7 @@ data/docs/html/sdldisplayformatalpha.html.i
 data/src/video/ataricommon/SDL_ataridevmouse.c.i
 data/Xcode/TemplatesForXcodeTiger/SDL OpenGL Application/main.c.i
 data/src/render/software/SDL_drawpoint.c.i
-data/src/video/ps3/SDL_ps3render_c.h.i
+data/src/video/khronos/vulkan/vk_sdk_platform.h.i
 data/src/video/Xext/XmuStdCmap/Distinct.c.i
 data/src/hidapi/android/project.properties.i
 data/include/SDL_config_win32.h.i
@@ -2589,7 +2639,7 @@ data/EXCLUDE/GLTSF/include/Window_Listener.hpp.i
 data/docs/man3/SDL_JoystickGetHat.3.i
 data/test/test-automation/src/libSDLtest/logger_helpers.h.i
 data/premake/Xcode/Xcode3/tests/testrelative/testrelative.xcodeproj/project.pbxproj.i
-data/src/video/android/eglplatform.h.i
+data/src/locale/dummy/SDL_syslocale.c.i
 data/src/render/software/SDL_blendline.c.i
 data/src/joystick/dc/.cvsignore.i
 data/src/video/x11/SDL_x11mouse.h.i
@@ -2647,7 +2697,8 @@ data/src/video/xbios/SDL_xbios_f30.c.i
 data/XCodeiPhoneOS/SDL/SDLiPhoneOS.xcodeproj/project.pbxproj.i
 data/TEST6.txt.i
 data/include/SDL_quit.h.i
-data/src/video/os2fslib/SDL_os2fslib.h.i
+data/src/joystick/windows/SDL_windows_gaming_input.c.i
+data/src/joystick/windows/SDL_rawinputjoystick.c.i
 data/src/video/SDL_blit_N.c.d
 data/XCodeiPhoneOS/Demos/data/icon.bmp.i
 data/docs/html/sdlwmgetcaption.html.i
@@ -2671,6 +2722,7 @@ data/docs/man3/SDL_SemTryWait.3.i
 data/docs/html/sdlglgetprocaddress.html.i
 data/VisualC/tests/testplatform/testplatform.dsp.i
 data/src/main/macosx/SDLMain.nib/classes.nib.i
+data/test/Makefile.in.i
 data/Xcode/SDLTest/sdlcommon_prefix.h.i
 data/visualtest/docs/html/nav_g.png.i
 data/build-scripts/android_libs/libEGL.so.i
@@ -2685,10 +2737,10 @@ data/acinclude.m4.d
 data/Xcode-iPhoneOS/Template/SDL iOS Application/___PROJECTNAME___.xcodeproj/TemplateInfo.plist.i
 data/VisualC-WinRT/SDL-WinRT_VS2012.sln.i
 data/src/core/linux/SDL_udev.h.i
-data/src/cdrom/macosx/AudioFileReaderThread.c.i
+data/sdl2-config-version.cmake.in.i
 data/src/render/metal/SDL_shaders_metal_ios.h.i
 data/premake/VisualC/build-scripts/clean_premake.bat.i
-data/src/render/direct3d11/SDL_render_d3d11_winrthelpers.cpp.i
+data/build-scripts/os2-buildbot.sh.i
 data/docs/man3/SDL_SemWait.3.i
 data/src/timer/dummy/SDL_systimer.c.i
 data/premake/util/sdl_check_compile.lua.i
@@ -2707,7 +2759,7 @@ data/VisualC-WinRT/SDL/SDL-WinRT_VS2012.vcxproj.i
 data/visualtest/docs/html/search/defines_74.js.i
 data/include/SDL_scalemode.h.i
 data/src/events/SDL_events_c.h.i
-data/src/video/xbios/SDL_xbiosmodes.h.i
+data/src/video/khronos/vulkan/vulkan.hpp.d
 data/docs/man3/SDL_JoystickEventState.3.i
 data/src/video/Xext/extensions/Makefile.am.i
 data/src/thread/nds/SDL_syssem.c.i
@@ -2731,11 +2783,12 @@ data/VisualC/tests/testjoystick/testjoystick_VS2008.vcproj.i
 data/src/video/nacl/SDL_naclevents.c.i
 data/visualtest/docs/html/_s_d_l__visualtest__variator__common_8h.html.i
 data/src/audio/disk/SDL_diskaudio.c.i
-data/visualtest/docs/html/_s_d_l__visualtest__exhaustive__variator_8h_source.html.i
+data/src/video/android/eglplatform.h.i
 data/touchTest/touchTest2/touchTest2.sln.i
 data/test/nds-test-progs/sprite2/source/testsprite2.c.i
 data/src/hidapi/windows/ddk_build/makefile.i
 data/Xcode/TemplatesForXcodeSnowLeopard/SDL OpenGL Application/___PROJECTNAME___.xcodeproj/project.pbxproj.i
+data/test/automated/rwops/rwops.h.i
 data/src/video/x11/SDL_x11render.h.i
 data/Xcode/TemplatesForXcodeLeopard/SDL OpenGL Application/atlantis/whale.c.i
 data/premake/VisualC/VS2012/tests/testkeys/testkeys.vcxproj.filters.i
@@ -2814,6 +2867,7 @@ data/src/video/dga/SDL_dgamouse.c.i
 data/docs/html/guideaudioexamples.html.i
 data/src/thread/linux/SDL_sysmutex.c.i
 data/visualtest/configs/testsprite2_geometry/testsprite2_geometry.config.i
+data/src/locale/android/SDL_syslocale.c.i
 data/src/audio/mint/SDL_mintaudio_dma8.c.i
 data/src/cdrom/macosx/CDPlayer.cpp.i
 data/src/audio/amigaos/SDL_audio.c.i
@@ -2828,7 +2882,7 @@ data/src/thread/irix/SDL_syssem.c.i
 data/Xcode/TemplatesForProjectBuilder/SDL Cocoa Application/SDL Cocoa App.pbproj/TemplateInfo.plist.i
 data/build-scripts/strip_fPIC.sh.i
 data/visualtest/docs/html/search/classes_73.js.i
-data/visualtest/docs/html/search/mag_sel.png.i
+data/Xcode-iOS/SDL/SDL.xcodeproj/xcshareddata/xcschemes/libSDL-tvOS.xcscheme.i
 data/visualtest/src/sut_configparser.c.i
 data/wayland-protocols/xdg-shell.xml.i
 data/visualtest/docs/html/tab_h.png.i
@@ -2893,6 +2947,7 @@ data/src/thread/win32/SDL_systhread_c.h.i
 data/src/video/riscos/SDL_riscosvideo.c.i
 data/test/test-automation/src/libtest/fuzzer/utl_random.c.i
 data/premake/VisualC/VS2010/tests/teststreaming/teststreaming.vcxproj.filters.i
+data/src/video/Xext/extensions/StdCmap.h.i
 data/src/video/android/SDL_androidtouch.c.i
 data/src/SDL_hints.c.i
 data/VisualC/tests/testalpha/testalpha_VS2010.vcxproj.i
@@ -2941,24 +2996,25 @@ data/visualtest/docs/html/search/all_6c.html.i
 data/src/video/cybergfx/SDL_cgximage_c.h.i
 data/src/hidapi/mac/hid.c.i
 data/premake/Xcode/build-scripts/run.tests.command.i
+data/test/testautomation_rwops.c.i
 data/src/video/SDL_rendercopy.c.i
 data/src/file/SDL_rwops.c.i
 data/Xcode-iPhoneOS/Template/SDL Application/Info.plist.i
 data/src/audio/bsd/.cvsignore.i
 data/test/test-automation/src/libSDLtest/xml_logger.h.i
 data/visualtest/docs/html/search/defines_6d.js.i
-data/Xcode/TemplatesForXcodeTiger/SDL OpenGL Application/Info.plist.i
+data/Xcode-iOS/SDL/SDL.xcodeproj/xcshareddata/xcschemes/libSDLmain-iOS.xcscheme.i
 data/visualtest/docs/html/struct_s_d_l_visual_test___random_variator.html.i
 data/test/test-automation/acinclude/libtool.m4.i
 data/sdl2-config.cmake.in.i
 data/src/audio/openbsd/.cvsignore.i
 data/premake/VisualC/VS2012/tests/testsem/testsem.vcxproj.filters.i
-data/visualtest/docs/html/search/variables_6d.js.i
+data/visualtest/docs/html/ftv2doc.png.i
 data/src/video/mx6/SDL_mx6events.c.i
 data/Xcode-iPhoneOS/Template/SDL Application/build/___PROJECTNAME___.build/___PROJECTNAME___.pbxindex/strings.pbxstrings/strings.i
 data/visualtest/docs/html/search/enums_73.js.i
 data/visualtest/docs/html/search/variables_73.html.i
-data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_config_iphoneos.h.i
+data/src/video/khronos/vulkan/vulkan_xlib.h.i
 data/test/testshader.c.i
 data/src/audio/dc/Makefile.am.i
 data/VisualC-WinRT/tests/loopwave/Assets/StoreLogo.png.i
@@ -3014,6 +3070,7 @@ data/src/video/mir/SDL_mirsym.h.i
 data/src/video/windows/SDL_msctf.h.i
 data/src/audio/ums/SDL_umsaudio.c.i
 data/premake/README-ios.txt.i
+data/src/video/offscreen/SDL_offscreenopengl.h.i
 data/visualtest/docs/html/closed.png.i
 data/src/render/software/SDL_blendfillrect.h.i
 data/src/video/yuv2rgb/yuv_rgb_sse_func.h.i
@@ -3146,6 +3203,7 @@ data/aclocal.m4.i
 data/Makefile.pandora.i
 data/src/joystick/amigaos/.cvsignore.i
 data/VisualC-WinRT/WinPhone81_VS2013/SDL-WinPhone81.sln.i
+data/src/render/metal/SDL_shaders_metal_tvos.h.i
 data/premake/VisualC/VS2012/tests/testsprite2/testsprite2.vcxproj.i
 data/src/video/qnx/gl.c.i
 data/test/testautomation.c.i
@@ -3169,6 +3227,7 @@ data/include/SDL_opengles2.h.i
 data/src/video/SDL_shape_internals.h.i
 data/VisualC/tests/testgl2/testgl2_VS2012.vcxproj.i
 data/src/video/psp/SDL_pspgl_c.h.i
+data/Makefile.os2.i
 data/visualtest/testsprite2_sample.actions.i
 data/Xcode/TemplatesForXcodeSnowLeopard/SDL Application/SDLApp_Prefix.pch.i
 data/VisualC/tests/testgamma/testgamma.dsp.i
@@ -3191,6 +3250,7 @@ data/premake/VisualC/VS2008/tests/testfilesystem/testfilesystem.vcproj.i
 data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_mouse.h.i
 data/premake/Xcode/Xcode3/tests/testshape/testshape.xcodeproj/project.pbxproj.i
 data/src/hidapi/ios/hid.m.i
+data/test/testatomic.c.i
 data/src/video/windx5/.cvsignore.i
 data/premake/VisualC/VS2012/SDL2/SDL2.vcxproj.filters.i
 data/visualtest/docs/html/struct_s_d_l_visual_test___action.html.i
@@ -3218,14 +3278,14 @@ data/src/video/Xext/extensions/xf86dgastr.h.i
 data/src/video/haiku/SDL_BWin.h.i
 data/src/audio/nds/SDL_ndsaudio.c.i
 data/src/video/x11/SDL_x11image_c.h.i
-data/visualtest/docs/html/search/variables_65.js.i
+data/src/video/khronos/vulkan/vulkan_core.h.i
 data/Xcode/TemplatesForProjectBuilder/SDL OpenGL Application/SDLMain.h.i
 data/docs/html/sdlgetrgb.html.i
 data/include/SDL_atomic.h.i
 data/include/SDL_opengles2_gl2.h.i
 data/Xcode/SDLTest/Info-testgamma__Upgraded_.plist.i
 data/src/video/uikit/SDL_uikitopengles.m.i
-data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_keysym.h.i
+data/src/video/khronos/vulkan/vulkan_win32.h.i
 data/visualtest/docs/html/search/variables_76.html.i
 data/android/project/res/layout/main.xml.i
 data/test/testnative.c.i
@@ -3240,8 +3300,10 @@ data/src/video/maccommon/.cvsignore.i
 data/src/video/ps2gs/SDL_gskeys.h.i
 data/premake/VisualC/VS2010/tests/testrumble/testrumble.vcxproj.i
 data/android-project-ant/jni/Android.mk.i
+data/src/video/offscreen/SDL_offscreenevents.c.i
 data/visualtest/install-sh.i
 data/CWprojects.sea.bin.d
+data/visualtest/docs/html/_s_d_l__visualtest__exhaustive__variator_8h_source.html.i
 data/EXCLUDE/GLIMM/include/Window_Listener.hpp.i
 data/docs/doxyfile.i
 data/CWprojects.sea.bin.i
@@ -3249,6 +3311,7 @@ data/src/video/Xext/Xxf86dga/Makefile.am.i
 data/src/hidapi/udev/99-hid.rules.i
 data/src/core/winrt/SDL_winrtapp_xaml.h.i
 data/premake/Xcode/Xcode3/tests/testautomation/testautomation.xcodeproj/project.pbxproj.i
+data/src/sensor/windows/SDL_windowssensor.h.i
 data/include/SDL_config_windowsrt.h.i
 data/VisualC/tests/testwm/testwm.vcproj.i
 data/CREDITS.i
@@ -3270,6 +3333,7 @@ data/src/cdrom/osf/Makefile.am.i
 data/premake/projects/testresample.lua.i
 data/config.sub.i
 data/Xcode-iPhoneOS/Demos/src/common.h.i
+data/visualtest/docs/html/search/files_6c.js.i
 data/src/libm/e_log10.c.i
 data/Xcode-iOS/Demos/src/rectangles.c.i
 data/test/test-automation/COPYING.i
@@ -3297,6 +3361,7 @@ data/src/video/xbios/SDL_xbios_blowup.h.i
 data/Xcode-iPhoneOS/Template/SDL iOS Application/Default.png.i
 data/src/main/winrt/SDL_winrt_main_NonXAML.cpp.i
 data/src/video/Xext/Xinerama/Xinerama.c.i
+data/test/shapes/p09_shape24.bmp.i
 data/src/video/windowsrt/Direct3DBase.cpp.i
 data/VisualC/SDLmain/SDLmain_VS2010.vcxproj.i
 data/src/video/photon/SDL_ph_wm.c.i
@@ -3418,7 +3483,7 @@ data/src/video/wscons/SDL_wsconsevents.c.i
 data/VisualC/tests/testgesture/testgesture.vcxproj.i
 data/test/nds-test-progs/sprite2/Makefile.i
 data/test/test-automation/src/libSDLtest/plain_logger.h.i
-data/test/shapes/p08_shape24.bmp.i
+data/src/video/uikit/SDL_uikitwindow.m.i
 data/Xcode/TemplatesForXcodeLeopard/SDL Application/SDLApp_Prefix.pch.i
 data/test/threadwin.c.i
 data/touchTest/testIn.c~.i
@@ -3434,7 +3499,7 @@ data/android/project/build.properties.i
 data/src/video/nanox/SDL_nxwm.c.i
 data/premake/Xcode/Xcode3/tests/testrendercopyex/testrendercopyex.xcodeproj/project.pbxproj.i
 data/VisualC/tests/testgl2/testgl2_VS2013.vcxproj.i
-data/test/test-automation/tests/testaudio/Makefile.am.i
+data/src/video/vivante/SDL_vivantevulkan.c.i
 data/premake/Linux/build-scripts/clean_premake.sh.i
 data/test/test-automation/tests/testrwops/Makefile.am.i
 data/.hgignore.i
@@ -3461,6 +3526,7 @@ data/premake/Xcode-iOS/build-scripts/clean_premake.command.i
 data/src/video/win32/wmmsg.h.i
 data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_config_pandora.h.i
 data/src/hidapi/mac/Makefile.am.i
+data/visualtest/docs/html/search/variables_64.html.i
 data/XCodeiPhoneOS/Template/SDL Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/Default.png.i
 data/Xcode/TemplatesForProjectBuilder/SDL Custom Cocoa Application/English.lproj/InfoPlist.strings.i
 data/premake/Xcode-iOS/SDL_config_premake.h.i
@@ -3473,6 +3539,7 @@ data/VisualC/tests/testjoystick/testjoystick.dsp.i
 data/src/main/windowsrt/SimplePixelShader.hlsl.i
 data/src/thread/pth/SDL_sysmutex_c.h.i
 data/VisualC/tests/checkkeys/checkkeys.vcxproj.user.i
+data/test/test-automation/common/images.h.i
 data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_rwops.h.i
 data/docs/man3/SDL_LoadBMP.3.i
 data/src/video/macdsp/.cvsignore.i
@@ -3521,6 +3588,7 @@ data/src/video/haiku/SDL_bvideo.cc.i
 data/src/video/cybergfx/SDL_cgxaccel.c.i
 data/src/thread/pth/SDL_systhread.c.i
 data/src/video/fbcon-1.3/SDL_fbrender_c.h.i
+data/src/locale/SDL_locale.c.i
 data/Xcode-iPhoneOS/Demos/data/bitmapfont/kromasky_16x16.bmp.i
 data/VisualC/tests/testthread/WinRT/testthread_VS2012_WinRT_TemporaryKey.pfx.i
 data/test/test-automation/build-scripts/ltmain.sh.i
@@ -3566,7 +3634,7 @@ data/visualtest/docs/html/struct_s_d_l_visual_test___s_u_t_config.html.i
 data/Xcode/TemplatesForXcode/SDL Custom Cocoa Application/SDLMain.m.i
 data/Xcode/TemplatesForXcodeSnowLeopard/SDL Application/___PROJECTNAME___.xcodeproj/TemplateInfo.plist.i
 data/Xcode/SDL/pkg-support/resources/ReadMeDevLite.txt.i
-data/docs/html/sdllockaudio.html.i
+data/debian/changelog.i
 data/README-platforms.txt.i
 data/doc/README-porting.md.i
 data/visualtest/docs/latex/parsehelper_8c.tex.i
@@ -3697,7 +3765,7 @@ data/premake/VisualC/VS2012/tests/checkkeys/checkkeys.vcxproj.i
 data/visualtest/include/SDL_visualtest_random_variator.h.i
 data/docs/html/sdlpushevent.html.i
 data/src/thread/pthread/SDL_syscond.c.i
-data/src/video/ggi/SDL_ggivideo.c.i
+data/VisualC/tests/testsensor/testsensor.vcxproj.i
 data/test/test-automation/build-scripts/install-runner.sh.i
 data/src/video/windows/SDL_windowsshape.c.i
 data/src/loadso/dlopen/SDL_loadso.c.i
@@ -3713,6 +3781,7 @@ data/src/video/dc/Makefile.am.i
 data/src/audio/dc/.cvsignore.i
 data/src/thread/Makefile.wat.i
 data/Xcode/TemplatesForProjectBuilder/Application.trgttmpl.i
+data/src/sensor/windows/SDL_windowssensor.c.i
 data/src/haptic/windows/SDL_dinputhaptic_c.h.i
 data/visualtest/docs/html/search/all_6f.js.i
 data/VisualC/tests/testatomic/testatomic_VS2005.vcproj.i
@@ -3733,12 +3802,12 @@ data/Xcode-iPhoneOS/Template/SDL Application/build/___PROJECTNAME___.build/___PR
 data/premake/VisualC/VS2008/tests/testthread/testthread.vcproj.i
 data/test/testgamecontroller.c.i
 data/src/video/cocoa/SDL_cocoawindow.h.i
-data/test/shapes/p01_shape8.png.i
+data/src/video/khronos/vulkan/vulkan_android.h.i
 data/test/testgl2.c.i
 data/src/audio/riscos/SDL_drenderer.h.i
 data/premake/Cygwin/build-scripts/make.debug.bat.i
 data/test/shapes/p01_shape32alpha.png.i
-data/android/testproject/res/drawable-hdpi/icon.png.i
+data/Xcode-iOS/SDL/SDL.xcodeproj/xcshareddata/xcschemes/libSDL-tvOS-dylib.xcscheme.i
 data/docs/README-android.md.i
 data/test/test-automation/testsurface/testsurface.c.i
 data/src/main/qtopia/SDL_qtopia_main.cc.i
@@ -3832,7 +3901,7 @@ data/docs/man3/SDL_GetKeyName.3.i
 data/README.Epoc.i
 data/Xcode/TemplatesForXcode/SDL Custom Cocoa Application/Info.plist.i
 data/test/automated/rwops/TestSupportRWops.h.i
-data/visualtest/docs/html/search/files_6c.js.i
+data/src/joystick/usb_ids.h.i
 data/src/audio/symbian/SDL_epocaudio.h.i
 data/src/audio/dma/Makefile.am.i
 data/Xcode/SDLTest/Info-testthread__Upgraded_.plist.i
@@ -3842,6 +3911,7 @@ data/EXCLUDE/GLTSF/GLTSF_vs2008.sln.i
 data/src/main/symbian/EKA2/sdlexe.cpp.i
 data/Xcode-iOS/Template/SDL iOS Application/Info.plist.i
 data/src/video/caca/SDL_cacaevents.c.i
+data/android-project/app/jni/src/CMakeLists.txt.i
 data/VisualC/tests/testoverlay/testoverlay_VS2008.vcproj.i
 data/src/timer/SDL_timer_c.h.i
 data/src/audio/paudio/SDL_paudio.h.i
@@ -3864,6 +3934,7 @@ data/src/audio/mint/SDL_mintaudio_stfa.c.i
 data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_platform.h.i
 data/src/joystick/android/SDL_sysjoystick_c.h.i
 data/src/main/symbian/EKA2/SDL_main.cpp.i
+data/wayland-protocols/org-kde-kwin-server-decoration-manager.xml.i
 data/src/audio/mme/SDL_mmeaudio.h.i
 data/src/joystick/macos/Makefile.am.i
 data/Xcode/TemplatesForProjectBuilder/SDL Custom Cocoa Application/MyController.h.i
@@ -3896,6 +3967,7 @@ data/premake/README-cygwin.txt.i
 data/src/joystick/controller_type.h.i
 data/src/video/psp/SDL_pspmouse.c.i
 data/visualtest/docs/latex/action__configparser_8c.tex.i
+data/visualtest/docs/html/search/variables_65.js.i
 data/XCodeiPhoneOS/Template/SDL Application/build/___PROJECTNAME___.build/___PROJECTNAME___.pbxindex/subclasses.pbxbtree.i
 data/src/joystick/linux/Makefile.am.i
 data/src/thread/nds/SDL_sysmutex_c.h.i
@@ -3908,6 +3980,8 @@ data/src/loadso/dlopen/SDL_sysloadso.c.i
 data/Xcode/SDLTest/Info-testversion__Upgraded_.plist.i
 data/src/video/gem/SDL_gemwm.c.i
 data/src/video/uikit/SDL_uikitview.m.i
+data/src/locale/emscripten/SDL_syslocale.c.i
+data/src/video/offscreen/SDL_offscreenwindow.c.i
 data/docs/html/sdlcreatethread.html.i
 data/test/shapes/p09_shape32alpha.bmp.i
 data/src/video/uikit/SDL_uikitvideo.m.i
@@ -3918,6 +3992,7 @@ data/visualtest/src/action_configparser.c.i
 data/src/video/kmsdrm/SDL_kmsdrmevents_c.h.i
 data/acinclude/lt~obsolete.m4.i
 data/Xcode/TemplatesForProjectBuilder/SDL Application/SDL App.pbproj/TemplateInfo.plist.i
+data/test/Makefile.os2.i
 data/src/hidapi/LICENSE-orig.txt.i
 data/src/cdrom/macosx/SDL_syscdrom.c.i
 data/premake/VisualC/VS2012/tests/testfile/testfile.vcxproj.filters.i
@@ -3963,7 +4038,7 @@ data/VisualC/tests/testfile/testfile.vcxproj.user.i
 data/src/audio/disk/Makefile.am.i
 data/docs/html/sdlnumjoysticks.html.i
 data/VisualC-WinRT/tests/loopwave/Assets/Logo.png.i
-data/src/video/Xext/extensions/StdCmap.h.i
+data/src/locale/unix/SDL_syslocale.c.i
 data/src/audio/dummy/.cvsignore.i
 data/src/video/SDL_drawrect.c.i
 data/premake/util/sdl_string.lua.i
@@ -3991,6 +4066,7 @@ data/Xcode/SDLTest/Info-testpower.plist.i
 data/test/sail.bmp.i
 data/src/joystick/win32/SDL_mmjoystick.c.i
 data/docs/html/sdlsetcliprect.html.i
+data/src/joystick/hidapi/steam/controller_structs.h.i
 data/src/video/android/SDL_androidevents.c.i
 data/src/video/bwindow/SDL_sysmouse.cc.i
 data/src/video/nanox/SDL_nxwm_c.h.i
@@ -3999,7 +4075,7 @@ data/android/testproject/jni/egl.h.i
 data/src/video/windib/.cvsignore.i
 data/src/video/ggi/Makefile.am.i
 data/test/test-automation/src/libSDLtest/fuzzer/utl_crc32.h.i
-data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_mutex.h.i
+data/src/video/xbios/SDL_xbiosmodes.h.i
 data/src/video/bwindow/SDL_bvideo.cc.i
 data/docs/man3/SDL_CondSignal.3.i
 data/VisualC/tests/testvulkan/testvulkan_VS2008.vcproj.i
@@ -4015,7 +4091,7 @@ data/visualtest/docs/html/windows__process_8c.html.i
 data/android-project-ant/ant.properties.i
 data/src/timer/wince/SDL_systimer.c.i
 data/src/joystick/beos/SDL_bejoystick.cc.i
-data/src/video/cocoa/SDL_cocoamodes.h.i
+data/src/locale/SDL_syslocale.h.i
 data/src/video/windows/SDL_windowsmodes.c.i
 data/VisualCE/loopwave/loopwave.vcp.i
 data/XCodeiPhoneOS/Template/SDL Application/build/___PROJECTNAME___.build/___PROJECTNAME___.pbxindex/refs.pbxbtree.i
@@ -4034,12 +4110,15 @@ data/src/hidapi/LICENSE-bsd.txt.i
 data/setvars.cmd.i
 data/src/video/raspberry/SDL_rpimouse.c.i
 data/VisualC/tests/testgl2/testgl2.vcproj.i
+data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_error.h.i
 data/premake/Xcode/Xcode4/tests/testspriteminimal/testspriteminimal.xcodeproj/project.pbxproj.i
 data/src/video/mx6/SDL_mx6events_c.h.i
+data/wayland-protocols/xdg-decoration-unstable-v1.xml.i
 data/src/video/android/SDL_androidgl.c.i
 data/src/video/cybergfx/SDL_amigamouse.c.i
 data/VisualC/tests/tests.sln.i
 data/src/video/gem/SDL_gemkeyboard.h.i
+data/visualtest/docs/latex/struct_s_d_l_visual_test___variator.tex.i
 data/Xcode/TemplatesForXcodeSnowLeopard/SDL OpenGL Application/SDLMain.m.i
 data/build-scripts/makedep.sh.i
 data/VisualC/tests/loopwave/WinRT/Assets/Logo.png.i
@@ -4050,6 +4129,7 @@ data/XCodeiPhoneOS/Template/SDL Application/Info.plist.i
 data/VisualC/tests/testatomic/testatomic_VS2012.vcxproj.i
 data/test/test-automation/src/libSDLtest/SDL_test.c.i
 data/VisualC/tests/automated/automated_VS2010.vcxproj.i
+data/src/video/haiku/SDL_bmessagebox.h.i
 data/src/video/win32/SDL_win32video.c.i
 data/visualtest/docs/html/windows__screenshot_8c.html.i
 data/test/testintersections.c.i
@@ -4082,6 +4162,7 @@ data/VisualC/tests/testpalette/testpalette.dsp.i
 data/android-project/app/app.iml.i
 data/premake/projects/testplatform.lua.i
 data/premake/VisualC/VS2008/tests/testmessage/testmessage.vcproj.i
+data/test/nacl/manifest.json.i
 data/src/video/gem/Makefile.am.i
 data/visualtest/docs/latex/windows__process_8c.tex.i
 data/src/video/x11/SDL_x11events.h.i
@@ -4092,6 +4173,7 @@ data/VisualC/tests/testsprite2/testsprite2_VS2005.vcproj.i
 data/src/video/win32/SDL_win32clipboard.c.i
 data/visualtest/docs/html/ftv2folderopen.png.i
 data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL.h.i
+data/src/video/ggi/SDL_ggivideo.c.i
 data/src/power/SDL_power.c.i
 data/test/testjoystick.c.i
 data/src/video/directfb/SDL_DirectFB_video.c.i
@@ -4121,9 +4203,9 @@ data/src/input/evdev/SDL_evdev.h.i
 data/include/SDL_config_amiga.h.i
 data/src/joystick/nds/SDL_sysjoystick.c.i
 data/src/stdlib/SDL_malloc.c.d
-data/visualtest/docs/html/linux__process_8c.html.i
+data/src/thread/stdcpp/SDL_sysmutex.c.i
 data/src/video/SDL_gamma.c.i
-data/test/nacl/manifest.json.i
+data/src/joystick/virtual/SDL_virtualjoystick_c.h.i
 data/src/video/glsdl/SDL_glsdl.h.i
 data/docs/html/sdlsetmodstate.html.i
 data/src/cpuinfo/SDL_simd.h.i
@@ -4144,6 +4226,7 @@ data/VisualC/tests/testplatform/testplatform_VS2013.vcxproj.i
 data/test/testaudiohotplug.c.i
 data/VisualC/tests/testgles2/testgles2_VS2012.vcxproj.i
 data/src/video/windows/SDL_windowsshape.h.i
+data/visualtest/docs/html/linux__process_8c.html.i
 data/src/cdrom/macosx/AudioFilePlayer.c.i
 data/docs/README-porting.md.i
 data/test/shapes/p02_shape32alpha.png.i
@@ -4152,6 +4235,7 @@ data/android/project/res/drawable-hdpi/icon.png.i
 data/src/audio/SDL_audio_c.h.i
 data/docs/html/sdldisplayformat.html.i
 data/src/core/winrt/SDL_winrtxaml.cpp.i
+data/src/video/offscreen/SDL_offscreenframebuffer_c.h.i
 data/android-project/default.properties.i
 data/visualtest/docs/html/sut__configparser_8c.html.i
 data/src/video/ggi/SDL_ggievents.c.i
@@ -4192,6 +4276,7 @@ data/src/video/photon/SDL_photon_render.c.i
 data/test/automated/SDL_at.c.i
 data/src/video/SDL_pixels.c.i
 data/XCodeiPhoneOS/SDL/SDLiPhoneOS.xcodeproj/hfutrell.pbxuser.i
+data/test/test-automation/SDL_test.c.i
 data/src/video/SDL_renderer_gl.h.i
 data/src/video/glrenderer/SDL_renderer_gl.c.i
 data/src/audio/nds/sound9.c.i
@@ -4232,13 +4317,13 @@ data/src/file/cocoa/SDL_rwopsbundlesupport.h.i
 data/src/video/psp/SDL_pspevents_c.h.i
 data/Xcode-iPhoneOS/Test/Info.plist.i
 data/src/video/qnxgf/SDL_hiddi_mouse.h.i
-data/test/test-automation/common/images.h.i
+data/src/video/arm/pixman-arm-asm.h.i
 data/include/SDL_joystick.h.i
 data/XCodeiPhoneOS/Template/SDL Application/build/___PROJECTNAME___.build/___PROJECTNAME___.pbxindex/decls.pbxbtree.i
 data/test/shapes/p11_shape32alpha.bmp.i
 data/VisualC/tests/testthread/WinRT/Assets/SmallLogo.png.i
 data/docs/README.md.i
-data/src/video/wscons/.cvsignore.i
+data/src/hidapi/SDL_hidapi.c.i
 data/visualtest/src/rwhelper.c.i
 data/premake/VisualC/VS2008/tests/loopwave/loopwave.vcproj.i
 data/README.QNX.i
@@ -4334,7 +4419,7 @@ data/src/events/.cvsignore.i
 data/premake/projects/testspriteminimal.lua.i
 data/src/main/symbian/EKA2/vectorbuffer.h.i
 data/src/hermes/x86p_16.asm.i
-data/test/testmessage.c.i
+data/include/SDL_metal.h.i
 data/premake/VisualC/VS2010/tests/loopwave/loopwave.vcxproj.filters.i
 data/src/cdrom/macosx/SDLOSXCAGuard.h.i
 data/docs/man3/SDL_GetEventFilter.3.i
@@ -4342,6 +4427,7 @@ data/Xcode/TemplatesForXcodeSnowLeopard/SDL Cocoa Application/___PROJECTNAME___.
 data/visualtest/docs/latex/variator__common_8c.tex.i
 data/src/render/direct3d11/SDL_D3D11_PixelShader_TextureColored.hlsl.i
 data/build-scripts/config.sub.patch.i
+data/src/video/khronos/vulkan/vk_icd.h.i
 data/Xcode-iPhoneOS/Template/SDL Application/build/Debug-iphonesimulator/___PROJECTNAME___.app/Info.plist.i
 data/src/video/os2fslib/SDL_vkeys.h.i
 data/test/nacl/background.js.i
@@ -4389,6 +4475,7 @@ data/src/hidapi/ios/hid.mm.i
 data/docs/html/wm.html.i
 data/src/video/qnxgf/SDL_gf_render.c.i
 data/premake/README-macosx.txt.i
+data/src/video/vivante/SDL_vivantevulkan.h.i
 data/visualtest/docs/html/_s_d_l__visualtest__harness__argparser_8h_source.html.i
 data/README-raspberrypi.txt.i
 data/test/test-automation/testaudio/Makefile.am.i
@@ -4409,6 +4496,7 @@ data/README.touch.i
 data/src/video/x11/SDL_x11events_c.h.i
 data/src/video/haiku/SDL_bmodes.cc.i
 data/src/video/x11/SDL_x11image.c.i
+data/src/render/metal/SDL_shaders_metal_osx.h.d
 data/premake/VisualC/VS2012/tests/testrumble/testrumble.vcxproj.filters.i
 data/src/video/vivante/SDL_vivanteopengles.c.i
 data/Xcode/TemplatesForXcodeLeopard/SDL Application/SDLMain.h.i
@@ -4455,9 +4543,10 @@ data/visualtest/docs/html/_s_d_l__visualtest__exhaustive__variator_8h.html.i
 data/src/video/uikit/keyinfotable.h.i
 data/VisualC-WinRT/WinPhone80_VS2012/SDL-WinPhone80.vcxproj.filters.i
 data/README.DirectFB.i
-data/test/testyuv.c.i
+data/test/testalpha.c.i
 data/src/video/Xext/XmuStdCmap/DelCmap.c.i
 data/src/joystick/.cvsignore.i
+data/src/video/arm/pixman-arm-neon-asm.h.i
 data/src/video/bwindow/SDL_bopengl.c.i
 data/src/video/photon/Makefile.am.i
 data/docs/man3/SDL_DestroyMutex.3.i
@@ -4472,6 +4561,7 @@ data/android/testproject/jni/app-android.c.i
 data/test/test-automation/src/libtest/common/common.c.i
 data/visualtest/docs/html/_s_d_l__visualtest__parsehelper_8h.html.i
 data/include/SDL_test.h.i
+data/Xcode-iOS/SDL/SDL.xcodeproj/xcshareddata/xcschemes/PrepareXcodeProjectTemplate.xcscheme.i
 data/premake/projects/accelerometer.lua.i
 data/src/video/winrt/SDL_winrtkeyboard.cpp.i
 data/src/hermes/Makefile.am.i
@@ -4488,6 +4578,7 @@ data/Xcode/SDL/pkg-support/SDL.info.i
 data/Xcode/XcodeDocSet/Doxyfile.i
 data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_stdinc.h.i
 data/android-project/app/src/main/res/mipmap-mdpi/ic_launcher.png.i
+data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_power.h.i
 data/test/nds-test/build/nds-test.map.i
 data/EXCLUDE/GLTSF/include/Window.hpp.i
 data/src/audio/dsp/SDL_dspaudio.c.i
@@ -4504,6 +4595,7 @@ data/src/filesystem/nacl/SDL_sysfilesystem.c.i
 data/docs/man3/SDL_Flip.3.i
 data/src/main/symbian/EKA2/sdllib.cpp.i
 data/src/video/directfb/SDL_DirectFB_modes.h.i
+data/src/joystick/hidapi/SDL_hidapi_xbox360w.c.i
 data/src/core/linux/SDL_ime.c.i
 data/touchTest/Iphone Test/touchTestIPhone2/touchTestIPhone/include/SDL_compat.h.i
 data/XCodeiPhoneOS/Template/SDL Application/___PROJECTNAME___.xcodeproj/hfutrell.mode1v3.i
@@ -4528,6 +4620,7 @@ data/src/video/SDL_rect.c.i
 data/visualtest/docs/latex/dir_f584182df4c69fab0b14563b4d535158.tex.i
 data/src/video/kmsdrm/SDL_kmsdrmdyn.c.i
 data/test/test-automation/tests/asserts.c.i
+data/test/testmessage.c.i
 data/src/video/cybergfx/.cvsignore.i
 data/src/power/beos/SDL_syspower.c.i
 data/docs/html/sdlcdtrack.html.i
@@ -4579,6 +4672,7 @@ data/android-project/app/src/main/java/org/libsdl/app/HIDDeviceManager.java.i
 data/premake/Xcode/Xcode3/tests/testsprite2/testsprite2.xcodeproj/project.pbxproj.i
 data/docs/html/sdlwmseticon.html.i
 data/Xcode-iPhoneOS/Template/SDL Application/build/___PROJECTNAME___.build/___PROJECTNAME___.pbxindex/imports.pbxbtree.i
+data/test/shapes/p04_shape24.bmp.i
 data/src/video/win32/SDL_win32shape.h.i
 data/src/video/SDL_blit_0.c.i
 data/VisualC/tests/loopwave/loopwave_VS2013.vcxproj.i
@@ -4616,7 +4710,7 @@ data/src/video/aalib/SDL_aamouse.c.i
 data/premake/Xcode/Xcode3/tests/testime/testime.xcodeproj/project.pbxproj.i
 data/include/SDL_byteorder.h.i
 data/Xcode/TemplatesForXcodeSnowLeopard/SDL Cocoa Application/English.lproj/InfoPlist.strings.i
-data/android-project-ant/res/layout/main.xml.i
+data/docs/html/sdlloadwav.html.i
 data/src/video/x11/SDL_x11modes_c.h.i
 data/src/video/gtk/SDL_gtkevents.c.i
 data/docs/man3/SDL_DestroySemaphore.3.i
@@ -4643,7 +4737,7 @@ data/test/testlines2.c.i
 data/test/test-automation/src/libSDLtest/common/img_primitivesblend.c.i
 data/src/video/windows/SDL_windowsvideo.c.i
 data/src/video/riscos/Makefile.am.i
-data/test/shapes/p09_shape24.png.i
+data/src/video/arm/pixman-arm-neon-asm.S.i
 data/src/render/opengl/SDL_shaders_gl.c.i
 data/Xcode/TemplatesForXcode/SDL Custom Cocoa Application/MyCustomWindow.m.i
 data/premake/Xcode/Xcode4/SDL2/SDL2.xcodeproj/project.pbxproj.i
@@ -4673,6 +4767,8 @@ data/VisualC/tests/loopwave/loopwave.vcxproj.i
 data/XCodeiPhoneOS/Demos/data/ship.bmp.i
 data/Xcode-iPhoneOS/Demos/data/drums/ds_china.wav.i
 data/touchTest/touchTest2/touchTest2.ncb.i
+data/test/shapes/p08_shape24.bmp.i
+data/src/video/khronos/vulkan/vulkan_wayland.h.i
 data/wayland-protocols/relative-pointer-unstable-v1.xml.i
 data/visualtest/docs/latex/variators_8c.tex.i
 data/src/events/SDL_mouse_c.h.i
@@ -4713,10 +4809,11 @@ data/Xcode-iOS/Demos/data/drums/ds_brush_snare.wav.i
 data/OWMakefile.os2.i
 data/docs/html/sdlcondwait.html.i
 data/XCodeiPhoneOS/README.i
-data/test/Makefile.in.i
+data/src/video/ps2gs/SDL_gsevents.c.i
 data/visualtest/docs/html/_s_d_l__visualtest__variators_8h.html.i
 data/build-scripts/showrev.sh.i
 data/test/testautomation_keyboard.c.i
+data/src/video/khronos/vulkan/vulkan_mir.h.i
 data/premake/config/SDL_config_iphoneos.template.h.i
 data/Xcode/TemplatesForXcode/SDL Cocoa Application/English.lproj/SDLMain.nib/objects.nib.i
 data/src/timer/nds/SDL_systimer.c.i
@@ -4766,9 +4863,9 @@ data/premake/VisualC/VS2008/tests/testplatform/testplatform.vcproj.i
 data/src/video/mx6/SDL_mx6video.c.i
 data/src/joystick/os2/SDL_sysjoystick.c.i
 data/src/haptic/dummy/SDL_syshaptic.c.i
-data/src/video/uikit/SDL_uikitwindow.m.i
+data/src/joystick/virtual/SDL_sysjoystick.c.i
 data/src/video/aalib/.cvsignore.i
-data/test/automated/rwops/rwops.h.i
+data/src/joystick/virtual/SDL_virtualjoystick.c.i
 data/src/thread/os2/SDL_systhread_c.h.i
 data/README.ds.i
 data/premake/VisualC/VS2012/tests/testgamecontroller/testgamecontroller.vcxproj.i
@@ -4933,7 +5030,7 @@ data/premake/VisualC/VS2010/SDL_config_premake.h.i
 data/src/video/android/SDL_androidrender.h.i
 data/docs/html/joystick.html.i
 data/android-project-ant/src.i
-data/visualtest/docs/html/ftv2doc.png.i
+data/src/video/nds/SDL_ndsmouse.c.i
 data/src/joystick/SDL_gamecontrollerdb.h.i
 data/src/video/SDL_blendrect.c.i
 data/docs/man3/SDL_Palette.3.i
@@ -4948,6 +5045,7 @@ data/test/shapes/p01_shape24.bmp.i
 data/visualtest/docs/html/_s_d_l__visualtest__random__variator_8h.html.i
 data/src/haptic/win32/SDL_syshaptic.c.i
 data/src/SDL_fatal.h.i
+data/src/video/offscreen/SDL_offscreenopengl.c.i
 data/src/audio/nas/Makefile.am.i
 data/premake/premake4.lua.i
 data/premake/VisualC/VS2008/tests/testjoystick/testjoystick.vcproj.i
@@ -5093,6 +5191,7 @@ data/include/SDL_touch.h.i
 data/src/video/windows/SDL_windowsgamma.h.i
 data/src/video/ataricommon/SDL_ikbdinterrupt_s.h.i
 data/src/audio/dmedia/.cvsignore.i
+data/src/joystick/virtual/SDL_sysjoystick_c.h.i
 data/src/core/winrt/SDL_winrtapp.h.i
 data/src/video/photon/SDL_ph_mouse.c.i
 data/src/video/directfb/SDL_DirectFB_opengl.h.i
@@ -5154,7 +5253,7 @@ data/src/thread/dc/SDL_sysmutex_c.h.i
 data/docs/man3/SDL_DisplayFormatAlpha.3.i
 data/acinclude/esd.m4.i
 data/test/shapes/trollface_24.bmp.i
-data/test/testautomation_rwops.c.i
+data/src/render/direct3d11/SDL_render_d3d11_winrthelpers.cpp.i
 data/src/video/android/SDL_androidvulkan.h.i
 data/src/video/uikit/SDL_uikitopengles.h.i
 data/Xcode-iPhoneOS/Demos/data/bitmapfont/license.txt.i
